@@ -2,7 +2,7 @@ from flask Import Flask
 from redis import Redis
 import os
 
-app - Flask(__name__)
+app = Flask(__name__)
 redis_host = os.getenv('REDIS_ HOST', 'localhost')
 redis_password = os.getenv('REDIS PASSWORD', None)
 
