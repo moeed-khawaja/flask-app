@@ -1,4 +1,4 @@
-from flask Import Flask
+from flask import Flask
 from redis import Redis
 import os
 
